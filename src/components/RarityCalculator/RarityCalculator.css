@@ -1,0 +1,50 @@
+/* //RarityCalculator.css */
+/* .nft-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 1rem;
+  } */
+  
+  .nft-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .nft-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* RarityCalculator.css */
+.nft-image-container {
+  position: relative;
+}
+
+.nft-rank {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  font-weight: bold;
+  padding: 2px 5px;
+  border-radius: 4px;
+}
+
+
+
+
+
+
+/* src/components/RarityCalculator/RarityCalculator.css */
+.rarity-calculator {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.nft-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+  margin-top: 1rem;
+}

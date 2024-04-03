@@ -1,0 +1,26 @@
+/* src/components/NFTCard/NFTCard.css */
+.nft-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .nft-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .nft-image-container {
+    position: relative;
+  }
+  
+  .nft-rank {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    font-weight: bold;
+    padding: 2px 5px;
+    border-radius: 4px;
+  }

@@ -1,0 +1,9 @@
+/* RarityFilter.css */
+.rarity-filter {
+    margin-bottom: 1rem;
+  } 
+  
+  .rarity-filter label {
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
